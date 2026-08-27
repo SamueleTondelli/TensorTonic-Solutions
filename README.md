@@ -43,6 +43,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Reconstruct a Column-Parallel MLP Layer | Compute local linear activations from column-sharded weights and reconstruct the full activation in rank order. | https://www.tensortonic.com/study-plans/language-modeling-from-scratch/cs336-l07-column-parallel-mlp |
 | Synchronize Data-Parallel Gradients | Average rank-local gradients over the full data-parallel world and apply one identical out-of-place SGD update to every parameter replica. | https://www.tensortonic.com/study-plans/language-modeling-from-scratch/cs336-l07-data-parallel-gradient-sync |
 | Simulate Distributed Collectives | Simulate all-gather, sum reduce-scatter, sum all-reduce, and all-to-all over rank-ordered one-dimensional tensors. | https://www.tensortonic.com/study-plans/language-modeling-from-scratch/cs336-l07-simulate-collectives |
+| Account for ZeRO Memory by Stage | Calculate persistent model-state bytes per rank for DDP and ZeRO stages 1, 2, and 3 with ceiling division for uneven shards. | https://www.tensortonic.com/study-plans/language-modeling-from-scratch/cs336-l08-zero-memory-accounting |
 
 View my verified ML profile: [TensorTonic profile](https://www.tensortonic.com/profile/tonno)
 <!-- tensortonic:end -->
