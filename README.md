@@ -39,6 +39,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Gated DeltaNet State Update | Decay the recurrent state, erase its component along a unit key, write the new value, and read the just-updated state. | https://www.tensortonic.com/study-plans/language-modeling-from-scratch/cs336-l04-gated-deltanet-scan |
 | Parallel and Recurrent Linear Attention | Compute causal softmax-free linear attention through both a parallel formulation and a recurrent state scan. | https://www.tensortonic.com/study-plans/language-modeling-from-scratch/cs336-l04-linear-attention-duality |
 | Mamba 2 Gated State Scan | Apply a gated recurrent state update and read each output from the just-updated state. | https://www.tensortonic.com/study-plans/language-modeling-from-scratch/cs336-l04-mamba2-gated-state-scan |
+| Calculate Collective Effective Bandwidth | Calculate ring-equivalent algorithm bytes per rank and effective bandwidth for a supported collective. | https://www.tensortonic.com/study-plans/language-modeling-from-scratch/cs336-l07-collective-bandwidth |
 | Simulate Distributed Collectives | Simulate all-gather, sum reduce-scatter, sum all-reduce, and all-to-all over rank-ordered one-dimensional tensors. | https://www.tensortonic.com/study-plans/language-modeling-from-scratch/cs336-l07-simulate-collectives |
 
 View my verified ML profile: [TensorTonic profile](https://www.tensortonic.com/profile/tonno)
